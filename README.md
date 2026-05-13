@@ -23,4 +23,4 @@ A desktop To-Do List application built using Python and Tkinter with local stora
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/todo-list-python.git
+git clone https://github.com/SimpleBonsa04/To-Do-List-App-Python.git
