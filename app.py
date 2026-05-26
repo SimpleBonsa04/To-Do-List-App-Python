@@ -5,7 +5,6 @@ import json
 try:
     with open("tasks.json", "r") as file:
         tasks = json.load(file)
-
 except (FileNotFoundError, json.JSONDecodeError):
     tasks = []
 
@@ -29,9 +28,7 @@ def add_task():
         messagebox.showwarning("Warning", "Please enter a task.")
         return
 
-    task = { "title": title, "completed": False, "priority": priority
-    }
-
+    task = { "title": title, "completed": False, "priority": priority}
     tasks.append(task)
     save_tasks()
     update_listbox()
